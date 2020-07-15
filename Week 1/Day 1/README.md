@@ -1,35 +1,52 @@
-Day 1 Outline:
+<center>Day 1 Outline</center>
 
-<b>Introduction</b>:
-- Forgetting is okay
-- Googling is good
-- Making errors if absolutely good
-- Classes
-- Some of you may know something, and some of you may not
-- Keep thinking about project
-- code->git, notes and whiteboard
-- Atom by
+<b>Schedule:</b>
+<ul>
+  
+  <li> Wednesday (July 15): 19:00-21:00. HTML and CSS.</li>
+  <li> Friday (July 17): 18:00-20:00. Bootstrap and Git.</li>
+  <li> Saturday (July 18): 10:00-14:00. Office Hours. </li>
+</ul>
 
 
-HTML:
+<b>Introduction:</b>
+<ul>
+  <li> Have Python, ATOM, PyCharm installed.</li>
+  <li> Forgetting is okay.</li>
+  <li> Making errors is absolutely good.</li>
+  <li> Googling is good</li>
+  <li> Keep thinking about your project. </li>
+</ul>
 
-- Hello Word
-- Paragraph
-- Headings
-- Ordered/Unordered Lists
-- Image
-- Link
-- Tables
-- Forms
+<b>HTML:</b>
+<ul>
+  
+  <li> Hello Word</li>
+  <li> Paragraph</li>
+  <li> Headings</li>
+  <li> Ordered/Unordered Lists</li>
+  <li> Images</li>
+  <li> Links</li>
+  <li> Tables</li>
+  <li> Forms </li>
+</ul>
 
-CSS:
-- inline tag
-- color, text-align, 
-- <style>
-- styles.css (link rel = "stylesheet" href = )
-- Div background-color, width, height, padding, margin9back to table)
-- border: 3px solid black;  border-collapse: collapse
-- Font-family: Arial, font-size:, font-weight,
-- id (#foo) is unique
-- class (.foo{}) for multiple tags
-- order (inline -> id -> class -> type)
+
+
+<b>CSS:</b>
+<ul>
+  
+  <li> Inline Tags</li>
+  <li> Color, text-align</li>
+  <li> Style tags</li>
+  <li> Styles file (link rel = "")</li>
+  <li> Div background-color, width, height, padding, margin</li>
+  <li> border: 3px solid black;  border-collapse: collapse </li>
+  <li> Font-family: Arial, font-size:22, font-weight: bold;</li>
+  <li> id (#foo) is unique </li>
+  <li> class (.foo{}) for multiple tags </li>
+  <li> order (inline -> id -> class -> type) </li>
+</ul>
+
+<b>Homework:</b>
+Visit this <a href = "https://google.com">famous</a> website. Clone the page using HTML, CSS only.
