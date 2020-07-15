@@ -1,6 +1,6 @@
 Day 1 Outline:
 
-Introduction:
+<b>Introduction</b>:
 - Forgetting is okay
 - Googling is good
 - Making errors if absolutely good
