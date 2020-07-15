@@ -1,4 +1,5 @@
 <center> Day 2 (Bootstrap, Git) </center>
+
 <b> Bootstrap </b>
 <ul>
   <li></li>
