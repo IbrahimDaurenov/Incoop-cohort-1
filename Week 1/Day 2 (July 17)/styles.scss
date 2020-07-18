@@ -1,0 +1,25 @@
+$color:yellow;
+$newcolor:springgreen;
+
+ul{
+  color: $color;
+}
+
+a {
+  color: $newcolor;
+}
+
+div{
+  background-color: $color;
+}
+
+
+ul{
+  li{
+    color:$newcolor;
+  }
+
+  a {
+    color: black;
+  }
+}
