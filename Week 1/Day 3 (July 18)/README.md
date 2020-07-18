@@ -5,7 +5,7 @@ Office hours.
 
   ```
   Question 1: ...?
-  <b>Answer:</b> ...
+  Answer: ...
   ```
 
   ```
