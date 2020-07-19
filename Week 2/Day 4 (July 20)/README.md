@@ -17,12 +17,13 @@
   <li> variables </li>
   <li>
     Ints
-    ```
+
+```
       a = 10
       x = 123
       y = a + x
       a = a * 2
-    ```
+```
   </li>
   <li> Floats </li>
   <li> Strings </li>
