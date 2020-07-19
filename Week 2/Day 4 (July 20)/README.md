@@ -21,12 +21,26 @@
 ```
       a = 10
       x = 123
-      y = a + x
+      y = a + 1
       a = a * 2
+      a = x**2
+      a = x//2
+
+
 ```
   </li>
-  <li> Floats </li>
-  <li> Strings </li>
+  <li> Floats
+```
+        a = 10.5
+        x = math.pi
+        y = 122.0
+        z = x/y
+        t = a/1
+```
+  </li>
+  <li> Strings
+
+  </li>
   <li> Lists</li>
   <li> Links</li>
   <li> Tables</li>
