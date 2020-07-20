@@ -77,7 +77,7 @@
 
 
 <b>Homework 3:</b>
-
+```
 Ex. 1: You need to write a program, that will ask a user to type a name of some country. If this country is in top-25 (by the size) then you should print 'Asia' or 'America' or 'Africa', you should print the link to wikipedias link. You are not allowed to use ANY libraries (exception: webbrowser if you want extra-credit). Try to use data-types covered in Day 4.
 
 Ex 2. Write a python program that validates the password. First of all, ask for a password. Then check if:
@@ -120,3 +120,5 @@ If size = 3:
 Ex 4.
 Create Github repo and call it "Web Development Practice"
 Upload HW1, HW2 and HW3 (in separate folders).
+
+```
