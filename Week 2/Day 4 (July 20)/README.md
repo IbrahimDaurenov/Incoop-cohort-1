@@ -76,5 +76,7 @@
 
 
 
-<b>Homework:</b>
-TBA
+<b>Homework 3:</b>
+Ex. 1: You need to write a program, that will ask a user to type a name of some country. If this country is in top-25 (by the size) then you should print 'Asia' or 'America' or 'Africa', you should print the link to wikipedias link. You are not allowed to use ANY libraries (besides webbrowser if you want extra-credit). Try to use data-types covered in Day 4.
+
+Ex 2: TBA
