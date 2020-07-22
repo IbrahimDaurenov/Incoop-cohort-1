@@ -55,7 +55,14 @@ Upload HW1, HW2 and HW3 (in separate folders).
 
 ## Homework (by July 24):
 ```
-TBA
+  Ex 1. Create your own cypher (call it cypher.py). You should ask your user to choose if he wants to encrypt or decrypt message. If he chooses to encrypt then ask for the message and then send him encrypted message. Otherwise, allow your to decrypt the message that he has got.
+
+  Ex 2. Create a game (guess.py). Program should randomly generate a number between 1 and 10000 and user must guess this number. After each guess computer should respond with either: 'My number is greater', 'My number is less' or 'You guessed my number'.
+
+  Ex 3. Create a program (time_machine.py) that asks user some date. After user typed the date your program should print either 'This date was N days ago' or 'This date will be in N days'. Make sure your program can understand all following inputs (without asking for some specific type): DD/MM/YYYY, DD.MM.YYYY, DD/MM/YY, DD.MM.YY, DD,MM,YY, DD.MM.YYYY
+
+  Ex 4. Create a program hw4.py that will ask me to choose which exercise I want to grade. For example, if I choose Ex3, it should run time_machine.py.
+
 ```
 
 ## Homework (by July 31):
