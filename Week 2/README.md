@@ -53,7 +53,7 @@ Create Github repo and call it "Web Development Practice"
 Upload HW1, HW2 and HW3 (in separate folders).
 ```
 
-## Homework (by July 24):
+## Homework 4 (by July 24):
 ```
   Ex 1. Create your own cypher (call it cypher.py). You should ask your user to choose if he wants to encrypt or decrypt message. If he chooses to encrypt then ask for the message and then send him encrypted message. Otherwise, allow your to decrypt the message that he has got.
 
@@ -65,7 +65,23 @@ Upload HW1, HW2 and HW3 (in separate folders).
 
 ```
 
-## Homework (by July 31):
+## Homework 5 / Project 1 (by July 31):
 ```
-TBA
+
+You need to develop social media network. User should have opportunity to:
+- Register (login, password)
+- Login (login, password)
+
+Once your user is registered/loged he/she must be able to:
+- Search for other users (by login)
+  - send a friend request
+  - If already friends then send a message
+- View all friends (list of all friends logins)
+- View all friend requests
+  - Accept or decline them
+- View all unread messages
+  - Open one of them
+- View last 5 inbox messages
+- View last 5 sent messages
+- Sign out / Exit
 ```
