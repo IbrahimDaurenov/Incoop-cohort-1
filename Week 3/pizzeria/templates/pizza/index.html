@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>
+      My first Django application
+    </title>
+  </head>
+
+  <body>
+    <h1>
+      Pizzeria!
+    </h1>
+
+    <p>
+      All countries
+      <ul>
+        {% for country in countries %}
+          <li>
+            {{country}}
+          </li>
+        {% endfor %}
+      </ul>
+
+
+    </p>
+    <p>
+      All pizzas:
+      <ul>
+        {% for p in pizzas %}
+          <li>
+            {{p}}
+          </li>
+        {% endfor %}
+      </ul>
+    </p>
+
+
+  </body>
+
+</html>
