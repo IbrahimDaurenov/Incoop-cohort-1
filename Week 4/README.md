@@ -1,9 +1,9 @@
 <b>Schedule:</b>
 <ul>
-  <li> Monday (July 20): 18:00-21:00. Group meeting.</li>
-  <li> Wednesday (July 22): 18:00-20:00. Project progress report.</li>
-  <li> Friday (July 24): 17:30-19:30. Django: urls, views, manage.py.</li>
-  <li> Saturday (July 25): 10:00-13:00. Office Hours. </li>
+  <li> Monday (August 3): 18:00-21:00. Template inheritance, Model relationships, Login and registration.</li>
+  <li> Wednesday (August 5): 18:00-20:00. JavaScript.</li>
+  <li> Friday (August 7): 17:30-19:30. Building project 2 live.</li>
+  <li> Saturday (August 8): 10:00-13:00. Projects discussions. </li>
 </ul>
 
 
