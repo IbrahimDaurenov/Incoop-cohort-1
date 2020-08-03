@@ -1,0 +1,33 @@
+{% extends "animal/base.html" %}
+
+{% block title %}
+  Our Types!
+{% endblock %}
+
+
+{% block body %}
+
+
+  <div class="container">
+    <div class="row">
+      {% for type in types %}
+
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">{{type.name}}</h5>
+            <p class="card-text"> We love {{type.name}}. They usualy say: {{type.language}}! </p>
+            <a href="{% url 'type' type.name %}" class="btn btn-primary">Check {{type.name}}</a>
+          </div>
+        </div>
+      </div>
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+
+
+{% endblock %}

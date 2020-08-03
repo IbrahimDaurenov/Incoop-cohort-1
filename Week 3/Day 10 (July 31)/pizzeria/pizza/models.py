@@ -15,6 +15,5 @@ class Pizza(models.Model):
     country = models.ForeignKey(Country, on_delete = models.CASCADE, related_name = 'countries')
     diameter = models.IntegerField()
 
-
     def __str__(self):
         return (self.name + ' ' + str(self.country) + ' ' + str(self.diameter) + 'cm')

@@ -1,0 +1,38 @@
+{% extends "animal/base.html" %}
+
+{% block title %}
+  Our animals!
+{% endblock %}
+
+
+{% block body %}
+
+
+
+
+
+
+
+  <div class="container">
+    <div class="row">
+      {% for animal in animals %}
+
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">{{animal.name}}</h5>
+            <p class="card-text">This is {{animal.name}}! He is {{animal.type.name}}. He will greet you, by saying {{animal.type.language}} </p>
+            <a href="{% url 'animal' animal.pk %}" class="btn btn-primary">Check {{animal.name}}</a>
+          </div>
+        </div>
+      </div>
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+
+
+{% endblock %}

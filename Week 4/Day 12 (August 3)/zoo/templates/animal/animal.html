@@ -1,0 +1,52 @@
+{% extends "animal/base.html"%}
+
+
+
+{% block title %}
+  Our animal {{animal}}
+{% endblock %}
+
+
+{% block body %}
+  <h1>
+    {{animal.name}}
+  </h1>
+
+  <ul>
+    <li>
+      Name: {{animal.name}}
+    </li>
+    <li>
+      Type: {{animal.type.name}}
+    </li>
+    <li>
+      Language: {{animal.type.language}}
+    </li>
+  </ul>
+
+
+  {% for comment in animal.comments.all %}
+    <div class="alert alert-info" role="alert">
+      {{comment.author}}: {{comment.content}}
+    </div>
+  {% endfor %}
+
+
+  <h2>
+    Add comment
+  </h2>
+
+  <form action = "{% url 'animal' animal.pk%}" method="post">
+    {% csrf_token %}
+    <label for="author">Your name:</label><br>
+    <input type="text" id="author" name="author"><br>
+
+    <label for="content">Your comment:</label><br>
+    <input type="text" id="content" name="content"><br>
+
+    <input type="submit" value = "Post">
+
+
+  </form>
+
+{% endblock %}

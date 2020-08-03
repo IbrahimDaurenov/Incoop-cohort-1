@@ -1,0 +1,16 @@
+{% extends "animal/base.html" %}
+
+{% block title %}
+  Our animals!
+{% endblock %}
+
+
+{% block body %}
+
+
+  <a href = "{% url 'animals' %}"> Our animals </a>
+  <br>
+  <a href = "{% url 'types' %}"> Our types </a>
+
+
+{% endblock %}
