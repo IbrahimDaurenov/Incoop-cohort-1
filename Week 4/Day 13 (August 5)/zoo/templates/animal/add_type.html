@@ -1,0 +1,17 @@
+{% extends "animal/base.html" %}
+
+
+{% block title %}
+  Add New Type
+{% endblock %}
+
+
+{% block body %}
+  <form method = "post">
+    {{form}}
+    {% csrf_token %}
+
+
+    <input type="submit" value = "Post">
+  </form>
+{% endblock %}

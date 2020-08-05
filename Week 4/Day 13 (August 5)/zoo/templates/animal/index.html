@@ -1,0 +1,17 @@
+{% extends "animal/base.html" %}
+{% load static %}
+{% block title %}
+  Our animals!
+{% endblock %}
+
+
+{% block body %}
+
+  <img src = "{% static 'animal/zoo.jpg' %}" alt = "Zoo image" height = "200px">
+  <br>
+  <a href = "{% url 'animals' %}"> Our animals </a>
+  <br>
+  <a href = "{% url 'types' %}"> Our types </a>
+
+
+{% endblock %}

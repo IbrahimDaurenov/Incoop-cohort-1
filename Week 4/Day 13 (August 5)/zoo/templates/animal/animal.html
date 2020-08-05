@@ -12,6 +12,11 @@
   <h1>
     {{animal.name}}
   </h1>
+  {% if animal.image.url != None %}
+    <img src = "{{animal.image.url}}" height = "100px">
+  {% else %}
+    No image yet
+  {% endif %}
 
   <ul>
     <li>
