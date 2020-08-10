@@ -5,7 +5,7 @@ Building your project. Idea->Realization.
 ```
 
 - Stock simulation platform: allows to sell and buy (imaginary) stocks (Difficulty: 4 , Hype: 7)
-- PharmaHelper: finds alternative drugs (Difficulty: 5 , Hype: 8)
+- PharmaHelper (Daulet): finds alternative drugs (Difficulty: 5 , Hype: 8)
 - StatisticsKZ: summarizes performance of KZ national team on different competitions (Difficulty: 3 , Hype: 5)
 - Steganography: sending encrypted messages in pictures (Difficulty: 4 , Hype: 8)
 - RateMyTeacher (Nabi): students in high schools can rate their teachers give (anonymous) feedbacks and share quizzes, test between each other (Difficulty: 5, Hype: 9)
